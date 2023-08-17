@@ -1,19 +1,18 @@
 #include<stdio.h>
 /**
- * main -entry point
+ * main - Entry point
  *
- * Description: a c program tht prints using printf
+ * Description: prints usinng putchar
  *
- * Return: 0 (success)
+ * Return: 0 (sucess)
  *
 */
 int main(void)
-{
-	char x[] = "_putchar";
-	int y;
+{	char arr[] = "_putchar";
+	int i;
 
-	for (y = 0 ; y < 8 ; y++)
-		_putchar(str[ch]);
+	for (i = 0; i < 8 ; i++)
+		_putchar(arr[i]);
 	_putchar('\n');
 
 	return (0);
