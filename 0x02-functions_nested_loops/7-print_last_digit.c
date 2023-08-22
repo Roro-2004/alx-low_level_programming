@@ -12,6 +12,6 @@ int print_last_digit(int m)
 
 	m %= 10;
 	y = m;
-	return (y + 47);
+	return (y - 47);
 
 }
