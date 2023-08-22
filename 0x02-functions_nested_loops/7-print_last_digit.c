@@ -8,10 +8,10 @@
 */
 int print_last_digit(int m)
 {
-	int y;
+	char y;
 
 	m %= 10;
-	y = 'm';
+	y = m;
 	return (y + 48);
 
 }
