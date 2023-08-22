@@ -10,7 +10,7 @@ int _isalpha(int c)
 {
 	int j, i;
 
-	for (i = 'a' ; i <= 'Z' ; i++)
+	for (i = 'A' ; i <= 'z' ; i++)
 	{
 		if (c == i)
 		{
