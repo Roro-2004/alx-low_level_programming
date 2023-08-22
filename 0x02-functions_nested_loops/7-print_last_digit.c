@@ -11,7 +11,7 @@ int print_last_digit(int m)
 	int y;
 
 	m %= 10;
-	y = (m*10) + m ;
+	y = 'm';
 	return (y + 48);
 
 }
