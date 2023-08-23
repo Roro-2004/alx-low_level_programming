@@ -12,8 +12,17 @@ void print_to_98(int n)
 	{
 	for (i = n; i <= 98 ; i++)
 	{
+		if (i != 98)
+		{
 		printf("% d", i);
 		_putchar(44);
+		_putchar(' ');
+		}
+		else
+		{
+			printf("98");
+			_putchar(' ');
+		}
 	}
 	_putchar('\n');
 	}
