@@ -14,7 +14,6 @@ void print_to_98(int n)
 	{
 		printf("% d", i);
 		_putchar(44);
-		_putchar(' ');
 	}
 	_putchar('\n');
 	}
@@ -31,7 +30,6 @@ void print_to_98(int n)
 			else
 			{
 			printf("98");
-			printf(" ");
 			}
 		}
 		_putchar('\n');
