@@ -12,7 +12,7 @@ void times_table(void)
 		for (j = 0; j <= 9 ; j++)
 	{
 		x = i * j;
-		if (i < 9)
+		if (x <= 9)
 		{
 		_putchar(x + 48);
 		_putchar(44);
