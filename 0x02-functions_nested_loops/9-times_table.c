@@ -38,7 +38,6 @@ void times_table(void)
 			_putchar((x / 10) + 48);
 			_putchar((x % 10) + 48);
 			}
-			_putchar(' ');
 
 	}
 	}
