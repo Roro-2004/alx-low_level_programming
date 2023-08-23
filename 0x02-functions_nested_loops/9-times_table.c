@@ -9,10 +9,10 @@ void times_table(void)
 
 	for (i = 0; i <= 9 ; i++)
 	{
-		for (j = 0; j <= 9 ; j++)
+		for (j = 0; j <= 10 ; j++)
 	{
 		x = i * j;
-		if (j != 9)
+		if (j == 10)
 		{
 		if (x <= 9)
 		{
