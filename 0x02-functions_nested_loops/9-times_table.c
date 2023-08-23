@@ -20,21 +20,18 @@ void times_table(void)
 		_putchar(x + 48);
 		_putchar(44);
 		_putchar(' ');
-		_putchar(' ');
-		}
+		_putchar(' '); }
 		else if (x > 9)
 		{
 		_putchar((x / 10) + 48);
 		_putchar((x % 10) + 48);
 		_putchar(44);
-		_putchar(' ');
-		}
+		_putchar(' '); }
 		else
 		{
 			_putchar(x + 48);
 			_putchar(44);
-			_putchar(' ');
-		}
+			_putchar(' '); }
 		}
 		else
 		{
@@ -43,11 +40,9 @@ void times_table(void)
 			else
 			{
 			_putchar((x / 10) + 48);
-			_putchar((x % 10) + 48);
-			}
+			_putchar((x % 10) + 48); }
 
 	}
 	}
-		_putchar('\n');
-	}
+		_putchar('\n'); }
 }
