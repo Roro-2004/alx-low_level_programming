@@ -19,6 +19,7 @@ void times_table(void)
 		_putchar(x + 48);
 		_putchar(44);
 		_putchar(' ');
+		_putchar(' ');
 		}
 		else
 		{
