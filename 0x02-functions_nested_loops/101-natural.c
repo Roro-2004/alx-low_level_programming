@@ -18,5 +18,6 @@ int main(void)
 		x = x - 1;
 	}
 	}
-	return (sum);
+	printf("%d",sum);
+	return (0);
 }
