@@ -7,8 +7,8 @@
 void print_times_table(int n)
 {
 	int i, j, x, y;
-	
-	if ( n != 100)
+
+	if (n != 100)
 	{
 	for (i = 0; i <= n; i++)
 	{
