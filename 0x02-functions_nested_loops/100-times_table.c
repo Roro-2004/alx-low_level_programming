@@ -20,7 +20,7 @@ void print_times_table(int n)
 			{
 				printf("%d,   ", x);
 			}
-			else if ( y >= 100)
+			else if (y >= 100)
 			{
 				printf("%d, ", x);
 			}
