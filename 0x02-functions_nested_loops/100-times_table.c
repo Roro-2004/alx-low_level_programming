@@ -16,13 +16,17 @@ void print_times_table(int n)
 			y = i * (j + 1);
 			if (j != n)
 			{
-			if (y > 9)
+			if (y <= 9)
+			{
+				printf("%d,   ", x);
+			}
+			else if ( y >= 100)
 			{
 				printf("%d, ", x);
 			}
 			else
 			{
-				printf("%d,  ", x);
+				printf("%d  ", x);
 			}
 			}
 			else
