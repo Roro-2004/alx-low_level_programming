@@ -13,13 +13,12 @@ void more_numbers(void)
 			x = j;
 			if (j > 9)
 			{
-				_putchar (49);
+				_putchar(49);
 				x = j % 10;
 			}
 			else
-				_putchar (x + 48);
+				_putchar(x + 48);
 		}
-		if (i < 9)
 		_putchar('\n');
 	}
 }
