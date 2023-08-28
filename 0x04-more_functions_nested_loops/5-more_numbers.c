@@ -18,6 +18,7 @@ void more_numbers(void)
 				_putchar((j % 10) + 48);
 			}
 		}
+		if (i != 9)
 		_putchar('\n');
 	}
 }
