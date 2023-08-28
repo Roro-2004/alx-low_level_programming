@@ -5,7 +5,7 @@
 */
 void print_diagonal(int n)
 {
-	int i, j, arr[10][10];
+	int i, j, arr[1000][1000];
 
 	if (n > 0)
 	{
