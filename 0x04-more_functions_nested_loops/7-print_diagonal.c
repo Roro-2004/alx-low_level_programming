@@ -5,7 +5,7 @@
 */
 void print_diagonal(int n)
 {
-	int i, j, arr[1000][1000];
+	int i, j;
 
 	if (n > 0)
 	{
@@ -13,20 +13,11 @@ void print_diagonal(int n)
 		{
 			for (j = 0; j < n; j++)
 			{
+				_putchar(' ');
 				if (i == j)
-				{
-					arr[i][j] = 92;
-				}
-				else
-					arr[i][j] = 32;
+				_putchar(92);
 			}
-		}
-		for (i =0; i < n; i++){
-			for (j =0; j < n; j++)
-			{
-				_putchar(arr[i][j]);
-			}
-			_putchar ('\n');
+			_putchar('\n');
 		}
 	}
 	else
