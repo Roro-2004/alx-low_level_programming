@@ -1,5 +1,8 @@
 #include"main.h"
-/***/
+/**
+ * puts2 - a func
+ * @str: char
+*/
 void puts2(char *str)
 {
 	int i = 0;
