@@ -1,5 +1,9 @@
 #include"main.h"
-/***/
+/**
+ *_strlen - a func that prints the length of the string
+ *@s: array
+ *Return: length
+*/
 int _strlen(char *s)
 {
 	int i = 0, sum = 0;
@@ -8,11 +12,11 @@ int _strlen(char *s)
 	{
 		if (s[i])
 		{
-			sum ++;
+			sum++;
 		}
 		else
 			break;
-		i ++;
+		i++;
 	}
 	return (sum);
 }
