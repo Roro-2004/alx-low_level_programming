@@ -21,4 +21,6 @@ _putchar(s[j]);
 if (j == 0)
 _putchar ('\n');
 }
+if (sum == 0)
+_putchar('\n');
 }
