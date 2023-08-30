@@ -15,9 +15,9 @@ void _puts(char *str)
 			break;
 		i++;
 	}
-	for (j = 0; j < sum; j++)
+	for (j = 0; j <= sum; j++)
 	{
-		if (j != sum - 1)
+		if (j != sum)
 			_putchar(str[j]);
 		else
 			_putchar ('\n');
