@@ -15,7 +15,7 @@ else
 break;
 i++;
 }
-for (j = sum; j >= 0; j--)
+for (j = sum - 1; j >= 0; j--)
 {
 _putchar(s[j]);
 if (j == 0)
