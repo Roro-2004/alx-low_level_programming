@@ -16,11 +16,12 @@ char *_strchr(char *s, char c)
 		else
 			break;
 	}
-	for (j = 0; j < i; j++)
+	for (j = 0; j <= i; j++)
 	{
 		if (s[j] == c)
 		{
 			return (s + j);
 		}
-	}return ('\0');
+	}
+	return ('\0');
 }
