@@ -38,6 +38,7 @@ char *cap_string(char *s)
 		}
 		else
 			equal = 0;
+		islower = 0;
 		s++;
 	}
 	return (ptr);
