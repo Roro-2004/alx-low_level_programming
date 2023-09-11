@@ -8,39 +8,37 @@
 */
 char *str_concat(char *s1, char *s2)
 {
-	unsigned int i = 0, j = 0, size, k, x = 0;
+	unsigned int i = 0, j = 0, k, x = 0;
 
 	char *a = NULL;
 
 	if (s1 == NULL)
 	{
-		s1 = '\0';
+		s1 = "\0";
 	}
 	if (s2 == NULL)
 	{
-		s2 = '\0';
+		s2 = "\0";
 	}
 	while (s1[i] != '\0')
 	{
 		if (s1[i])
 			i++;
 		else
-			break;
-	}
+			break; }
 	while (s2[j] != '\0')
 	{
 		if (s2[j])
 			j++;
 		else
-			break;
-	}
-	size = i + j;
+			break; }
+	a[i + j] = '\0';
 	a = (char *)malloc(size * (char)+1);
-	if(a == 0)
+	if (a == 0)
 	{
 		return ('\0');
 	}
-	for (k = 0; k <= size; k++)
+	for (k = 0; k < (i + j); k++)
 	{
 		if (k < i)
 			a[k] = s1[k];
@@ -49,6 +47,5 @@ char *str_concat(char *s1, char *s2)
 			a[k] = s2[x];
 			x++;
 		}
-	}
-	return (a);
+	} return (a);
 }
