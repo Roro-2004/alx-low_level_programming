@@ -19,8 +19,6 @@ char *str_concat(char *s1, char *s2)
 		else
 			break;
 	}
-	if (s1 == 0 || i == 0)
-		return ('\0');
 	while (s2[j] != '\0')
 	{
 		if (s2[j])
@@ -39,6 +37,10 @@ char *str_concat(char *s1, char *s2)
 			a[k] = s2[x];
 			x++;
 		}
+	}
+	if (a == 0)
+	{
+		return ('\0');
 	}
 	return (a);
 }
