@@ -40,7 +40,7 @@ char *str_concat(char *s1, char *s2)
 	}
 	if (a == 0)
 	{
-		return (' ');
+		return ('\0');
 	}
 	return (a);
 }
