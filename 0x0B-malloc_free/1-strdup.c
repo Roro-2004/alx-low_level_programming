@@ -11,6 +11,8 @@ char *_strdup(char *str)
 
 	unsigned int i = 0, j;
 
+	if (str == 0)
+		return ('\0');
 	while (str[i] != '\0')
 	{
 		if (str[i])
@@ -18,7 +20,7 @@ char *_strdup(char *str)
 		else
 			break;
 	}
-	ptr = (char *)malloc(i * sizeof(char));
+	ptr = (char *)malloc(i * sizeof(char) + 1);
 	if (ptr == 0)
 	{
 		return ('\0');
