@@ -1,6 +1,10 @@
 #include"dog.h"
 #include<stdlib.h>
-/***/
+/**
+ * free_dog - func
+ *
+ * @d: struct element
+*/
 void free_dog(dog_t *d)
 {
 	if (d)
