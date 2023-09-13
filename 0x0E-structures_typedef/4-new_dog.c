@@ -1,19 +1,20 @@
 #include"dog.h"
 #include<stdlib.h>
 /**
- * strlen - func
+ * _strlen - func
  * @str: arr
  * Return: len
 */
 int _strlen(const char *str)
 {
 	int len = 0;
+
 	while (*str++)
 		len++;
 	return (len);
 }
 /**
- * strcpy - func
+ * _strcpy - func
  * @dest: arr
  * @str: arr
  * Return: arr
